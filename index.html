@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home Page</title>
+	<style type="text/css">
+	button {
+		background-color: #93bc93;
+
+	}
+
+	a {
+		color: white;
+		padding: 4px;
+	}
+
+	div{
+		padding: 20px;
+	}
+	ol {
+		padding: 10px; 
+		margin: 20px
+	}
+</style>
+</head>
+<body>
+	<div style="background-color: #93bc93"><!-- <img src="imagesWeb/boats.jpg" alt="two boats tilted onto sides at low tide" height="300" width="400"> -->
+		<p style="color: white; margin: 20px">Welcome to my home page! You can <a href="mailto:boothbee2012@gmail.com" style="color: white; margin: 10px">email me</a>.</p>
+		
+		<form name="login" style="float: right" action="process-form.php" method="post">
+			<span style="color: white">User Name:</span>
+			<input type="text" name="username">
+			<span style="color: white">Password:</span>
+			<input type="password" name="password">
+			<span style="color: white">City Destination:</span>
+			<select name="cities" id="">
+				<option value="Amsterdam">Amsterdam</option>
+				<option value="London">London</option>
+				<option value="Paris">Paris</option>
+				<option value="Tokyo">Tokyo</option>
+			</select>
+			<input type="submit">
+		</form>
+		<hr>
+	</div>
+	<div>
+		<h2>Home Page</h2>
+
+		<button><a href="my-friends.html">Friends</a></button>
+		<button> <a href="my-plans.html">Plans</a></button>
+
+		<button><a href="my-work.html" >Work</a></button>
+		
+		<button><a target="_google" href="http://google.com">Google</a></button>
+	</div>
+	<div style="background-color: #93bc93">
+		<a target="_studioweb" href="https://cloud.studioweb.com/users/courses/beginners_html_2015" style="float: left">
+			<img style="border-radius: 50%; margin: 30px"  src="imagesWeb/bridgeswamp.jpg" alt="bridge over a swamp">
+		</a>
+
+		<ol type="I">
+			<li style="color: white; margin: 10px; margin-top: 10px"><dt>London</dt><dd>-streets of piss</dd></li>
+			<li style="color: white; margin: 10px; margin-top: 10px"><dt>Amsterdam</dt><dd>-streets of hash</dd></li>
+			<li style="color: white; margin: 10px; margin-top: 10px"><dt>Tokyo</dt><dd>-streets of crows</dd></li>
+			<li style="color: white; margin: 10px; margin-top: 10px"><dt>Paris</dt><dd>-streets of dog shit</dd></li>
+		</ol>
+
+	</div>
+
+</body>
+</html>

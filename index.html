@@ -3,36 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Home Page</title>
-	<style type="text/css">
-	button {
-		background-color: #93bc93;
+	
 
-	}
-
-	a {
-		color: white;
-		padding: 4px;
-	}
-
-	div{
-		padding: 20px;
-	}
-	ol {
-		padding: 10px; 
-		margin: 20px
-	}
-</style>
+<link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-	<div style="background-color: #93bc93"><!-- <img src="imagesWeb/boats.jpg" alt="two boats tilted onto sides at low tide" height="300" width="400"> -->
-		<p style="color: white; margin: 20px">Welcome to my home page! You can <a href="mailto:boothbee2012@gmail.com" style="color: white; margin: 10px">email me</a>.</p>
+	<div><!-- <img src="imagesWeb/boats.jpg" alt="two boats tilted onto sides at low tide" height="300" width="400"> -->
+		<p>Welcome to my home page! You can <a href="mailto:boothbee2012@gmail.com" margin: 10px">email me</a>.</p>
 		
-		<form name="login" style="float: right" action="process-form.php" method="post">
-			<span style="color: white">User Name:</span>
+		<form name="login" action="process-form.php" method="post">
+			<span>User Name:</span>
 			<input type="text" name="username">
-			<span style="color: white">Password:</span>
+			<span>Password:</span>
 			<input type="password" name="password">
-			<span style="color: white">City Destination:</span>
+			<span>City Destination:</span>
 			<select name="cities" id="">
 				<option value="Amsterdam">Amsterdam</option>
 				<option value="London">London</option>
@@ -44,7 +28,7 @@
 		</form>
 		<hr>
 	</div>
-	<div>
+	<nav id="navigation">
 		<h2>Home Page</h2>
 
 		<button><a href="mentors.html">mentors</a></button>
@@ -53,18 +37,18 @@
 		<button><a href="wealth.html" >wealth</a></button>
 		
 		<button><a target="_google" href="https://books.google.com/books/about/Disappear.html?id=rsXklgEACAAJ">My Book</a></button>
-	</div>
-	<div style="background-color: #93bc93">
+	</nav>
+	<div >
 		<a target="_studioweb" href="https://cloud.studioweb.com/users/courses/beginners_html_2015" style="float: left">
-			<img style="border-radius: 50%; margin: 30px"  src="imagesWeb/bridgeswamp.jpg" alt="bridge over a swamp">
+			<img id="bridge" src="imagesWeb/bridgeswamp.jpg" alt="bridge over a swamp">
 		</a>
 
 		<ol type="I">
-			<li style="color: white; margin: 10px; margin-top: 10px"><dt>London</dt><dd>-streets of piss</dd></li>
-			<li style="color: white; margin: 10px; margin-top: 10px"><dt>Amsterdam</dt><dd>-streets of hash</dd></li>
-			<li style="color: white; margin: 10px; margin-top: 10px"><dt>Tokyo</dt><dd>-streets of crows</dd></li>
-			<li style="color: white; margin: 10px; margin-top: 10px"><dt>Paris</dt><dd>-streets of dog shit</dd></li>
-			<li style="color: white; margin: 10px; margin-top: 10px"><dt>Stockholm</dt><dd>-streets of coffee shops</dd></li>
+			<li><dt>London</dt><dd>-streets of piss</dd></li>
+			<li><dt>Amsterdam</dt><dd>-streets of hash</dd></li>
+			<li><dt>Tokyo</dt><dd>-streets of crows</dd></li>
+			<li><dt>Paris</dt><dd>-streets of dog shit</dd></li>
+			<li><dt>Stockholm</dt><dd>-streets of coffee</dd></li> 
 		</ol>
 
 	</div>

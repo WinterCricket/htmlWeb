@@ -1,0 +1,79 @@
+
+
+/* tag Selectors */
+
+#bridge {
+	float: right; 
+	border-radius: 50%; 
+	margin: 30px;  
+}
+#navigation {
+
+}
+#prices {
+	width: 700px; 
+	height: 300px;
+}
+.fatBottom {
+	padding-bottom: 60px
+}
+.pullRight {
+	float: right;
+	margin-right: 700px;
+	font-size: 1.2em;
+}
+.paddingBottom {
+	padding-bottom: 15px;
+}
+.storyTitle {
+	background-color: salmon;
+}
+/*.centerForm {
+	text-align: center;
+}*/
+.centerObj {
+    display: block;
+    margin: 0 auto;
+}
+a {
+	padding: 4px;
+}
+li {
+	margin: 10px;
+	margin-top: 10px
+}
+
+div, button, nav {
+
+	background-color: #93bc93
+}
+div, nav {
+	padding: 20px;
+
+}
+ol, p {
+
+	margin: 20px
+}
+p {
+	padding: 10px; 
+}
+a, div, nav {
+	color: white;
+}
+form {
+	float: right;
+}
+table, td, th {
+	border: 1px solid black;
+	text-align: center;
+
+}
+tfoot {
+
+	background-color: orange;
+	font-weight: 400;
+}
+thead {
+	background-color: green;
+}

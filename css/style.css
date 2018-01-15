@@ -35,20 +35,37 @@
     display: block;
     margin: 0 auto;
 }
+body {
+	font-size: 1.3vw;
+	/*font-style: Georgia, "Times New Roman", serif;*/
+	font-family: 'Joti One', cursive;
+	background-image: url(../images/boats.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-attachment: fixed;
+}
 a {
 	padding: 4px;
+	text-transform: capitalize;
 }
 li {
 	margin: 10px;
 	margin-top: 10px
+	text-align: justify;
 }
 
 div, button, nav {
 
-	background-color: #93bc93
+	/*background-color: #a8a8a6;*/
 }
 div, nav {
 	padding: 20px;
+
+}
+button {
+	color: white;
+	background-color: #caa181;
+}
 
 }
 ol, p {
@@ -76,4 +93,11 @@ tfoot {
 }
 thead {
 	background-color: green;
+}
+img {
+	width: 300px;
+	height: 200;
+}
+h1, h2 {
+	font-size: 3em;
 }

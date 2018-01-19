@@ -60,9 +60,13 @@
 	li {
 		margin: 10px;
 		margin-top: 10px
-		text-align: justify;
+		text: justify;
 	}
+	ul li {
+		list-style-type: none;
+		line-height: 200%;
 
+	}
 	div, button, nav {
 
 		/*background-color: #a8a8a6;*/
@@ -79,12 +83,14 @@
 
 	nav {
 		background-color: rgba(0, 0, 0, .33);
+		width: 20%;
 	}
 
 }
-ol, p {
+ul, p {
 
 	margin: 20px
+
 }
 p {
 	padding: 10px; 
@@ -92,6 +98,7 @@ p {
 a, div, nav {
 	color: white;
 }
+
 form {
 	float: right;
 }
@@ -115,26 +122,53 @@ img {
 h1, h2 {
 	font-size: 3em;
 }
+ul li {
+	list-style-type: none;
+}
 
-a:hover {
-	background-color: orange;
-	
+/*a:active {
 	font-weight: 800;
 	font-family: font-family: 'Lato', sans-serif;
-	font-size: 2em;
-	opacity: .3;
+	font-size: 3em;
+	background-color: red;
+	color: yellow;
+}*/
+
+a:link, a:visited {
+	background-color: salmon;
+	opacity: .4;
+	
+	
+	border-radius: 10px;
+	display: block;
+	width: 200px;
+	transition: margin-bottom .35s ease-in;
 }
-a:visted {
-	color: purple;
-}
+ 
+a:hover {
+	background-color: rgba(255, 165, 100, .33);
+	font-weight: 800;
+	font-family: font-family: 'Lato', sans-serif;
+	
+	bottom-margin: 40px;
+
+}	
 
 #centerDoc a:hover {
 	color: blue;
 	font-weight: 800;
 	font-family: font-family: 'Lato', sans-serif;
-	font-size: 2em;
+	font-size: 1em;
+	
 }
-
-#centerdoc a:visted {
-	color: purple;
+#menuDoc a:link {
+	background-color: salmon;
+	opacity: .4;
+	
+	
+	border-radius: 10px;
+	display: block;
+	width: 200px;
+	padding: 10px;
+	bottom-margin: 40px;
 }

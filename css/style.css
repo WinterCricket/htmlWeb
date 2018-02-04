@@ -18,9 +18,9 @@
 	height: 300px;
 }
 .sticky {
-  position: fixed;
-  top: 400;
-  width: 100%
+	position: fixed;
+	top: 400;
+	width: 100%
 }
 
 .fatBottom {
@@ -43,76 +43,76 @@
 	/*.centerObj {
 		display: block;
 		margin: 0 auto;
-	}*/
-	body {
-		font-size: 1.3vw;
-		/*font-style: Georgia, "Times New Roman", serif;*/
-		font-family: 'Joti One', cursive;
+		}*/
+		body {
+			font-size: 1.3vw;
+			/*font-style: Georgia, "Times New Roman", serif;*/
+			font-family: 'Joti One', cursive;
 
-		background-image: url(../images/boats.jpg);
-		background-repeat: no-repeat;
-		background-size: 100vw;
-		background-attachment: fixed;
+			background-image: url(../images/boats.jpg);
+			background-repeat: no-repeat;
+			background-size: 100vw;
+			background-attachment: fixed;
 
-	}
-	
-	a {
-		padding: 4px;
-		text-transform: capitalize;
-	}
-	
-	
-	div, button, nav {
+		}
 
-		/*background-color: #a8a8a6;*/
-	}
-	
-	
+		a {
+			padding: 4px;
+			text-transform: capitalize;
+		}
+
+
+		div, button, nav {
+
+			/*background-color: #a8a8a6;*/
+		}
+
+
 
 	/*nav {
 		background-color: rgba(0, 0, 0, .33);
 		width: 80%;
 
-	}*/
+		}*/
 
-}
-ul, p {
+	}
+	ul, p {
 
-	margin: 20px
+		margin: 20px
 
-}
-p {
-	padding: 10px; 
-}
-a, div, nav {
-	color: white;
-}
+	}
+	p {
+		padding: 10px; 
+	}
+	a, div, nav {
+		color: white;
+	}
 
-form {
-	float: right;
-}
-table, td, th {
-	border: 1px solid black;
-	text-align: center;
+	form {
+		float: right;
+	}
+	table, td, th {
+		border: 1px solid black;
+		text-align: center;
 
-}
-tfoot {
+	}
+	tfoot {
 
-	background-color: orange;
-	font-weight: 400;
-}
-thead {
-	background-color: green;
-}
-img {
-	width: 300px;
-	height: 200;
-}
-h1, h2 {
-	font-size: 3em;
-}
-ul li {
-	list-style-type: none;
+		background-color: orange;
+		font-weight: 400;
+	}
+	thead {
+		background-color: green;
+	}
+	img {
+		width: 300px;
+		height: 200;
+	}
+	h1, h2 {
+		font-size: 3em;
+	}
+	ul li {
+		list-style-type: none;
 	}
 
 /*a:active {
@@ -121,7 +121,7 @@ ul li {
 	font-size: 3em;
 	background-color: red;
 	color: yellow;
-}*/
+	}*/
 
 /*a:link, a:visited {
 	background-color: salmon;
@@ -133,39 +133,54 @@ ul li {
 	/*width: 200px;*/
 	/*transition: margin-bottom .35s ease-in;*/
 
-h2 {
-	color: white;
-}
-a:hover {
-	background-color: rgba(255, 165, 100, .33);
-	font-weight: 800;
-	font-family: font-family: 'Lato', sans-serif;
+	h2 {
+		color: white;
+	}
+	a:hover {
+		background-color: rgba(255, 165, 100, .33);
+		font-weight: 800;
+		font-family: font-family: 'Lato', sans-serif;
 	}
 	/*bottom-margin: 40px;
-*/
+	*/
 	
 
-/**/
-li {
-    float: right;
-}
+	/**/
+	li {
+		float: right;
+	}
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    margin-right: 40px;
-}
-li a:hover:not(.active) {
-    background-color: rgba(200, 100, 50, .4);
-}
+	li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		margin-right: 40px;
+	}
+	li a:hover:not(.active) {
+		background-color: rgba(200, 100, 50, .4);
+	}
 
-.active {
-	background-color: rgba(200, 100, 50, .4);
-}
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: rgba(200, 100, 50, .4);
-}
+	.active {
+		background-color: rgba(200, 100, 50, .4);
+	}
+	/* Change the link color to #111 (black) on hover */
+	li a:hover {
+		background-color: rgba(200, 100, 50, .4);
+	}
+	ul, ol {
+		list-style-type: none;
+	} 
+	li {
+		background-image: url("../images/starBullet.png");
+		background-repeat: no-repeat;
+		
+		padding-top: 10px;
+		padding-left: 25px;
+		
+		background-position: 0px 9px;
+
+		/*background-color: transparent;*/
+		margin-bottom: 5px;
+	}

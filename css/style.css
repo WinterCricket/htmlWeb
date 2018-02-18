@@ -16,6 +16,8 @@
 #prices {
 	width: 700px; 
 	height: 300px;
+	position: fixed;
+	bottom: 30px;
 }
 .sticky {
 	position: fixed;
